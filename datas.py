@@ -36,6 +36,9 @@ def show_foods():
 def add_user():
     pass
 
+#comment qosildi 
+#bul taza code 
+
 
 
 
