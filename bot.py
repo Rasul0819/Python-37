@@ -12,7 +12,9 @@ async def start_bot():
 
 
 api = '7937457837:AAETL-AVA3Y594dBoLybIGuV92uYdE_MwBc'
-bot = Bot(api)
+proxy_url = 'http://proxy.server:3128'
+bot = Bot(api,proxy=proxy_url)
+
 storage = MemoryStorage()
 dp = Dispatcher(bot=bot,storage=storage)
 
